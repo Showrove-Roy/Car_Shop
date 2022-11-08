@@ -1,9 +1,11 @@
 import React from "react";
-
+import "./Banner.css";
 const SliderIMG = ({ slider }) => {
   const { image, prev, id, next } = slider;
   return (
-    <div id={`slide${id}`} className='carousel-item relative w-full'>
+    <div
+      id={`slide${id}`}
+      className='carousel-item relative w-full max-h-screen overflow-hidden'>
       <div className='carouselImage'>
         <img src={image} alt='' className='w-full' />
       </div>
@@ -30,7 +32,7 @@ const SliderIMG = ({ slider }) => {
           Latest Project
         </button>
       </div>
-      <div className='absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-5'>
+      <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
         <a
           href={`#slide${prev}`}
           className='btn btn-circle border-2  border-[#FF3811] mr-5'>

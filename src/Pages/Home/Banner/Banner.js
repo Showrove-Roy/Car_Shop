@@ -1,5 +1,5 @@
 import React from "react";
-import "./Banner.css";
+
 import SliderIMG from "./SliderIMG";
 
 import img1 from "../../../assets/images/banner/1.jpg";
@@ -51,8 +51,7 @@ const bannerData = [
 
 const Banner = () => {
   return (
-    <div className='carousel w-full'>
-      {/* <SliderIMG image={banner1}></SliderIMG> */}
+    <div className='carousel w-full rounded-xl'>
       {bannerData.map((slider) => (
         <SliderIMG key={slider.id} slider={slider}></SliderIMG>
       ))}
