@@ -9,7 +9,6 @@ const Services = () => {
       .then((data) => setServices(data))
       .catch((err) => console.error(err));
   }, []);
-  console.log(services);
   return (
     <div>
       <div className='text-center'>
@@ -26,6 +25,12 @@ const Services = () => {
         {services.map((service) => (
           <ServiceCard key={service._id} service={service}></ServiceCard>
         ))}
+      </div>
+
+      <div className='my-12 w-1/3 mx-auto flex justify-center'>
+        <button className='btn btn-outline font-semibold text-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]'>
+          More Services
+        </button>
       </div>
     </div>
   );

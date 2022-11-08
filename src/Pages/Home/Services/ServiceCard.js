@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const ServiceCard = ({ service }) => {
-  const { service_id, title, img, price } = service;
+  const { title, img, price } = service;
   return (
     <div className='card card-compact w-96 bg-base-100 shadow-xl rounded-xl'>
       <figure>
