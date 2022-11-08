@@ -18,13 +18,13 @@ const SliderIMG = ({ slider }) => {
           Servicing
         </h2>
       </div>
-      <div className='absolute flex justify-start transform -translate-y-1/2 left-24 top-2/4'>
+      <div className='absolute flex justify-start transform -translate-y-1/2 left-24 top-1/2 mt-10'>
         <p className=' text-white capitalize text-lg'>
           There are many variations of passages of available, but <br /> the
           majority have suffered alteration in some form
         </p>
       </div>
-      <div className='absolute flex justify-start transform -translate-y-1/2 left-24 bottom-1/3'>
+      <div className='absolute flex justify-start transform -translate-y-1/2 left-24 bottom-1/4'>
         <button className='btn btn-outline text-base font-semibold mr-5 text-white bg-[#FF3811] border-[#FF3811] '>
           Discover More
         </button>
