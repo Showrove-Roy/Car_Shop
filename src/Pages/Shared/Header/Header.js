@@ -5,7 +5,7 @@ import logo from "../../../assets/logo.svg";
 const Header = () => {
   const menuItems = (
     <>
-      <li className='font-semibold text-lg'>
+      <li className='font-semibold'>
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
         <Link to='/services'>Services</Link>
@@ -15,7 +15,7 @@ const Header = () => {
     </>
   );
   return (
-    <div className='navbar h-20 bg-base-100 mb-12 pt-12'>
+    <div className='navbar h-20 bg-base-100 md:px-12  sticky top-0 z-50'>
       <div className='navbar-start'>
         <div className='dropdown'>
           <label tabIndex={0} className='btn btn-ghost lg:hidden'>
@@ -39,7 +39,7 @@ const Header = () => {
             {menuItems}
           </ul>
         </div>
-        <Link to='/' className='btn btn-ghost normal-case text-xl'>
+        <Link to='/' className='w-20'>
           <img src={logo} alt='' />
         </Link>
       </div>
@@ -47,7 +47,7 @@ const Header = () => {
         <ul className='menu menu-horizontal p-0'>{menuItems}</ul>
       </div>
       <div className='navbar-end'>
-        <button className='btn btn-outline text-base font-semibold text-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]'>
+        <button className='btn btn-outline font-semibold text-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]'>
           Appointment
         </button>
       </div>
