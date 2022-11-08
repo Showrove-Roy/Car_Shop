@@ -1,0 +1,50 @@
+[
+    {
+        "product_id":"01",
+        "title":"Car Engine Plug",
+        "price":"12",
+        "rating":"4.2",
+        "product_URL":"https://i.postimg.cc/rFFmZ10Y/6.png",
+        "description":"Your spark plugs are what supply the spark that ignites the air/fuel mixture, creating the explosion which makes your engine produce power."
+    },
+    {
+        "product_id":"02",
+        "title":"Car Air Filter",
+        "price":"10",
+        "rating":"4.3",
+        "product_URL":"https://i.postimg.cc/nrTLcz5k/3.png",
+        "description":"TRAPS DIRT AND FILTH: Various damaging particles and dust can collect over your engine, however, with FRAM car air filter, Extra Guard entraps these particles for a safer, cleaner, and quality engine performance."
+    },
+    {
+        "product_id":"03",
+        "title":"DISC BRAKE KIT",
+        "price":"899",
+        "rating":"4.5",
+        "product_URL":"https://i.postimg.cc/PJftcHx8/1.png",
+        "description":"Wilwood brake kits consist of specifically engineered and matched groups of components designed to provide superior brake system performance and custom appeal over a wide range of applications"
+    },
+    {
+        "product_id":"04",
+        "title":"Mitsubishi Lancer Coilovers",
+        "price":"350",
+        "rating":"4.7",
+        "product_URL":"https://i.postimg.cc/0jv6yhN8/2.png",
+        "description":"Compatible With Mitsubishi Lancer (CX/CY) 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017; Including Ralliart and Sportsback; Excluding Lancer Evolution Models"
+    },
+    {
+        "product_id":"05",
+        "title":"Car Tire",
+        "price":"275",
+        "rating":"4.5",
+        "product_URL":"https://i.postimg.cc/nrLJ21R4/5.png",
+        "description":"Get a good deal on a great tire for your vehicle with the Starfire Solarus AS All-Season Tire. The advanced all-season tread design provides all-season traction in wet, dry and winter conditions while giving you plenty of miles. The tread is computer-designed to reduce noise to provide a quiet-running tire at highway speeds. "
+    },
+    {
+        "product_id":"06",
+        "title":"Car Battery",
+        "price":"23",
+        "rating":"4.8",
+        "product_URL":"https://i.postimg.cc/Y9sg2dW0/4.png",
+        "description":"170 CCA; Better warranty: Limited 2-year full replacement warranty, not pro rata; Longer service life: With 3-10 years of service life, ODYSSEY batteries save consumers time, money, and aggravation"
+    }
+]
